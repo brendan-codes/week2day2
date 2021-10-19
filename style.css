@@ -1,0 +1,131 @@
+* {
+    font-family: sans-serif;
+    border: 0px;
+}
+
+.container {
+    display: flex;
+}
+
+.nav {
+    align-items: center;
+    color: #FE5A1D;
+    background-color: #333333;
+    padding: 1%;
+}
+
+.nav h1 {
+    margin: 0;
+}
+
+.nav h1 span {
+    color: white;
+}
+
+.nav div:last-child {
+    margin-right: 2%;
+}
+
+.nav div button {
+    padding: 10px 20px 10px 20px;
+}
+
+.nav div button:first-child {
+    margin: 5px;
+    background-color: #FE5A1D;
+}
+
+.nav div button:last-child {
+    margin: 5px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+.search {
+    padding: 1%;
+    align-items: center;
+    background-color: #F9CB9C;
+}
+
+.search img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.search div p {
+    text-align: center;
+    margin: 0px;
+}
+
+.search input, .search button {
+    padding: 10px 20px 10px 20px;
+}
+
+.search button {
+    background-color: dodgerblue;
+    color: white;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.search input {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.recipe {
+    margin: 1% 1% 1% 0;
+    padding: 1%;
+    background-color: #EEEEEE;
+    flex: 3;
+    width: 100%;
+    /* height: 700px; */
+}
+
+.recipe h1 {
+    text-align: center;
+    color: dodgerblue;
+}
+
+.recipe div:last-child {
+    text-align: center;
+}
+
+.recipe-img {
+    width: 100%;
+    height: auto;
+}
+
+.like-img {
+    width: 25px;
+    height: 25px;
+}
+
+.likes-counter {
+    align-items: center;
+}
+
+.likes-counter p {
+    margin-left: 10px;
+}
+
+.recommended {
+    /* background-color: lightgreen; */
+    flex: 2;
+    width: 100%;
+    height: 700px;
+}
+
+.recommended h1 {
+    border-bottom: 1px solid silver;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}

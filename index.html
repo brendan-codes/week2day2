@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- nav -->
+    <div class="nav container space-between">
+        <div>
+            <h1><span>Just</span>Dessert</h1>
+        </div>
+        <div>
+            <button id="join" onclick="this.remove()">Join</button>
+            <button>Login</button>
+        </div>
+    </div>
+
+    <!-- search -->
+    <div class="search container space-around">
+        <div>
+            <input id="searchbar" type="text"><button onclick="search()">Search</button>
+        </div>
+        <div>
+            <img src="https://placekeanu.com/150/150" alt="">
+            <p>Text</p>
+        </div>
+        <div>
+            <img src="https://placekeanu.com/150/150" alt="">
+            <p>Text</p>
+        </div>
+        <div>
+            <img src="https://placekeanu.com/150/150" alt="">
+            <p>Text</p>
+        </div>
+        <div>
+            <img src="https://placekeanu.com/150/150" alt="">
+            <p>Text</p>
+        </div>
+    </div>
+
+    <!-- main -->
+    <div class="main container">
+        <div class="recipe">
+            <h1>Recipe of the Day!</h1>
+            <img class="recipe-img" src="https://placekeanu.com/1920/1080" alt="">
+            <div class="container space-between">
+                <div>
+                    <p>Orange Tart Jelly</p>
+                    <p>By: <a href="">Brendan</a></p>
+                </div>
+                <div class="likes-counter container">
+                    <img
+                        onclick="like('#count1')"
+                        class="like-img"
+                        src="https://placekeanu.com/25/25"
+                        alt=""
+                    >
+                    <p id="count1">66</p>
+                </div>
+            </div>
+            <div>
+                <a href="">See Full Recipe</a>
+            </div>
+        </div>
+        <div class="recommended">
+            <h1>Recommended</h1>
+            <img class="recipe-img" src="https://placekeanu.com/1920/1080" alt="">
+            <div class="container space-between">
+                <div>
+                    <p>Orange Tart Jelly</p>
+                    <p>By: <a href="">Brendan</a></p>
+                </div>
+                <div class="likes-counter container">
+                    <img onclick="like('#count2')" class="like-img" src="https://placekeanu.com/25/25" alt="">
+                    <p id="count2">66</p>
+                </div>
+            </div>
+            <img class="recipe-img" src="https://placekeanu.com/1920/1080" alt="">
+            <div class="container space-between">
+                <div>
+                    <p>Orange Tart Jelly</p>
+                    <p>By: <a href="">Brendan</a></p>
+                </div>
+                <div class="likes-counter container">
+                    <img onclick="like('#count3')" class="like-img" src="https://placekeanu.com/25/25" alt="">
+                    <p id="count3">66</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
